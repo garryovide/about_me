@@ -1,23 +1,23 @@
-html {
+html,
+body {
     height: 100%;
-    box-sizing: border-box;
-}
-
-html, body{
-	margin: auto;
-	padding: auto;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: verdana, arial, sans-serif;
-	font-style: normal .80em;
-	background-color: #FFF;
-	color: black;
+    background-color: #FFF;
+    color: black;
+	font-family: Georgia, arial, sans-serif;
+	font-style: normal;
+    font-size: 14px;
 }
 
-p{ 
+p { 
+    color: black;
+    font-family: Lora, verdana, arial, sans-serif;
 	padding: 0 30px 0 30px;
-    line-height: 1.5em;
+    line-height: 1.8em;
     text-align: justify;
 }
 
@@ -27,7 +27,7 @@ p{
     height: 186px;
 }
 
-#logo {
+header {
     width: 80%;
     margin: auto;
     position: relative;
@@ -35,47 +35,40 @@ p{
     background: #A9A9A9;
 }
 
-#logo #textlogo {
+
+#textlogo {
     position: relative; 
     top: 10px;
     left: 0;
 }
 
-#logo h1,#textlogo h1 {  
-	font: normal 3.0rem utopia, arial, sans-serif;
-    margin: 0 0 0 9px;
-    padding: 20px 0 0 20px;
-    color: #FFF;
+#textlogo h1 {  
+	color: #FFF;
+    font: bold 5.0rem Open sans, arial, sans-serif;
     letter-spacing:normal;
+    margin: 20px 70px 0 0;
+    padding-top: -1px;
+    text-align: right;
+    
 }
 
 .mycolor {
     color:#00C6F0;
 }
-
-h1, h2 { 
-	font: normal 170% 'century gothic', arial;
-    margin: 0 0 15px 0;
-    padding: 15px 0 5px 0;
-    color: #000;
-}
-  
+ 
 h2 {
-    padding-left: 20px;
+    font-family:  oswald, verdana, sans-serif;
+    color: #000; 
+    margin: 0 0 15px 0;
+    padding: 20px 0 0 20px;
 }
 
-#textlogo h1 {
-	text-align: right;
-	margin:20px 90px 0 0;
-	padding-top: 30px;
-}
-
-.imag_profile {
+.imag-profile {
     height: auto;
     width: 30%;
     float: left; 
     margin: 4px 15px 4px 20px; 
-    border: 1px solid #000000;
+    border: 1px solid #ccc;
 }
 
 .footer {
